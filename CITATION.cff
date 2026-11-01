@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the FORCE 2020 dataset listed under preferred-citation."
+title: "Well-Log QC, Lithology Prediction & Uncertainty Analysis"
+type: software
+authors:
+  - family-names: "Mitra"
+    given-names: "Arnab"
+repository-code: "https://github.com/arnab-mitra/Well-Log-Data-Analysis"
+license: MIT
+version: 0.1.0
+preferred-citation:
+  type: dataset
+  title: "FORCE 2020 Well well log and lithofacies dataset for machine learning competition"
+  authors:
+    - family-names: "Bormann"
+      given-names: "Peter"
+    - family-names: "Aursand"
+      given-names: "Peder"
+    - family-names: "Dilib"
+      given-names: "Fahad"
+    - family-names: "Manral"
+      given-names: "Surrender"
+    - family-names: "Dischington"
+      given-names: "Peter"
+  doi: "10.5281/zenodo.4351156"
+  date-released: 2020-12-18
+  publisher:
+    name: "Zenodo"

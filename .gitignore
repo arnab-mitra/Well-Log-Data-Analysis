@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environments and packaging
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# FORCE 2020 and other local data
+# Keep data/README.md and data/registry.json tracked; ignore everything else.
+data/*
+!data/README.md
+!data/registry.json
+
+# Generated model, QC, and dashboard artifacts
+artifacts/
+outputs/
+results/
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Notebook execution debris
+.ipynb_checkpoints/

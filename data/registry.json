@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "id": "force-2020-well-log-lithofacies",
+      "title": "FORCE 2020 Well well log and lithofacies dataset for machine learning competition",
+      "creators": [
+        "Bormann, Peter",
+        "Aursand, Peder",
+        "Dilib, Fahad",
+        "Manral, Surrender",
+        "Dischington, Peter"
+      ],
+      "publication_date": "2020-12-18",
+      "publisher": "Zenodo",
+      "doi": "10.5281/zenodo.4351156",
+      "record_url": "https://zenodo.org/records/4351156",
+      "api_url": "https://zenodo.org/api/records/4351156",
+      "license": {
+        "spdx_id": "CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "geographic_scope": "Norwegian Sea",
+      "well_count": 118,
+      "files": [
+        {
+          "role": "LAS archive",
+          "name": "LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip",
+          "download_url": "https://zenodo.org/api/records/4351156/files/LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip/content",
+          "size_bytes": 169785172,
+          "checksum": {
+            "algorithm": "md5",
+            "value": "da0d72d5783a780ac71779453d9fbfbf"
+          },
+          "tracked_in_git": false
+        }
+      ],
+      "provenance_notes": [
+        "The Zenodo description reports 118 Norwegian Sea wells.",
+        "The depositor states that the logs were slightly cleaned and partially despiked.",
+        "The depositor states that skilled geoscientists created the lithofacies and lithology interpretation.",
+        "The depositor states that the original well-log data came from the Norwegian government under a NOLD 2.0 license."
+      ],
+      "repository_license_exclusion": "This dataset and all extracted or derived third-party content are excluded from the repository MIT license."
+    }
+  ]
+}
